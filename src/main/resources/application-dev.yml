@@ -1,0 +1,3 @@
+library:
+  name: dev library
+  mode: development
