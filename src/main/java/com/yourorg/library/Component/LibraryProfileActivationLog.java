@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class LibraryProfileActivationLog implements CommandLineRunner {
-    private LibraryConfig libraryConfig;
+    private final LibraryConfig libraryConfig;
 
     public LibraryProfileActivationLog(LibraryConfig libraryConfig) {
         this.libraryConfig = libraryConfig;
