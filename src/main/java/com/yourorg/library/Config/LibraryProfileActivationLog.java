@@ -1,8 +1,7 @@
-package com.yourorg.library.Component;
+package com.yourorg.library.Config;
 
 
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
 @Component
