@@ -26,7 +26,7 @@ This is a project about Spring Boot Personal Library Service that lets users cat
 
 # ✅ Implemention
 
-# 1. Core Setup & Anatomy
+## 1. Core Setup & Anatomy
 
 - Spring Boot initialized with Web and JPA dependencies
 
@@ -36,7 +36,7 @@ This is a project about Spring Boot Personal Library Service that lets users cat
 
  --- 
  
-# 2. Dependency Injection
+## 2. Dependency Injection
 
 - GreetingService interface with two implementations: MorningGreetingService and EveningGreetingService
 
@@ -51,7 +51,7 @@ This is a project about Spring Boot Personal Library Service that lets users cat
   ---
   
 
-# 3. Configuration & Profiles
+## 3. Configuration & Profiles
 
 - Externalized values:
 
@@ -74,7 +74,7 @@ This is a project about Spring Boot Personal Library Service that lets users cat
   ---
   
 
-# 4. Component Scanning & Stereotypes
+## 4. Component Scanning & Stereotypes
 
 - Package structure under com.yourorg.library
 
@@ -83,8 +83,7 @@ This is a project about Spring Boot Personal Library Service that lets users cat
 - Verified exclusion via integration tests
 
 ---
-
-# 5. Advanced Dependency Injection
+## 5. Advanced Dependency Injection
 
 - Two implementations of NotificationService:
 
@@ -102,7 +101,7 @@ This is a project about Spring Boot Personal Library Service that lets users cat
   
 ---
 
-# ⚙️ Configuration Files
+## ⚙️ Configuration Files
 
 application.properties
 ```bash
